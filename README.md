@@ -11,5 +11,18 @@ In this project, I analyzed a dataset and then communicated my findings about it
 
 ~Is there a correlation between a movie budget and its revenue?
 # What have i learned?
+~All the steps involved in a typical data analysis process
 
+~Being comfortable posing questions that can be answered with a given dataset and then answering those questions
+
+~Knowing how to investigate problems in a dataset and wrangle the data into a format I can use
+
+~Having practice communicating the results of my analysis
+
+~Being able to use power query in microsoft excell and pivot table to speed up my analysis 
+
+~how to use tableau to produce plots showing my findings (visualization)
+
+#Findings
+I observed that Budget and Revenue have a positively correlated relationship.The difference between the revenue and the budget is what gives us our profit value 
 
