@@ -23,7 +23,7 @@ In this project, I analyzed a dataset and then communicated my findings about it
 
 ~how to use tableau to produce plots showing my findings (visualization)
 
-#Findings
+# Findings
 
 I observed that Budget and Revenue have a positively correlated relationship.The difference between the revenue and the budget is what gives us our profit value 
 
