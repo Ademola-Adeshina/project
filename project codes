@@ -1,0 +1,19 @@
+SELECT
+  id,
+  original_title,
+  budget,
+  revenue,
+  REGEXP_REPLACE(genres,'\\|+$','') AS genre,
+  popularity,
+  release_date
+FROM(
+    SELECT
+      id,
+      original_title,
+      budget,
+      revenue,
+      popularity,
+      release_date,
+    CONCAT(COALESCE(genres_1,''),'|',COALESCE(genres_2,''),'|',COALESCE(genres_3,''),'|',COALESCE(genres_4,''),'|',COALESCE       (genres_5,''),'|',COALESCE(genres_6,'')) AS genres 
+    FROM `seismic-operand-424515-h8.project.cleaned_table`)
+ 
